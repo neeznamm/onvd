@@ -144,33 +144,42 @@ body {
 .proizvod {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .proizvod img {
     height: 200px;
     float:left;
+    margin-right:25px;
 }
 
 .proizvod h3 {
     padding-top:15px;
     margin-bottom:15px;
+    font-style: italic;
 }
 
-.proizvod p {
+.proizvod li span{
     margin-top: 5px;
-    text-align: left;
-    font-size:16px;
+    font-size:15px;
+    line-height: 25px;
+    color: black;
+}
+
+.proizvod li {
+    color: #f17767;
 }
 
 .proizvod .cena {
     position: absolute;
-    background-color:#f1604d;
-    font-size:26px;
+    background-color:#f17767;
+    font-size:24px;
+    padding: 4px;
     bottom:0;
     right: 0;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: 'Neucha', cursive;
+    color: #f7efe4;
 }
 
 .proizvod.mal {
@@ -252,7 +261,7 @@ body {
 }
 
 .naracaj h1 {
-    margin-top:40px;
+    margin-top:30px;
     margin-bottom:30px;
     font-size:50px;
 }
@@ -284,13 +293,13 @@ body {
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .menu h2 {
-    font-size: 40px;
+    font-size: 35px;
     color:#2e6d50;
-    text-align: left;
-    margin-left: 50px;
+    text-align: center;
     margin-bottom:25px;
 }
 
@@ -298,32 +307,82 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #f7efe4;
     width: 370px;
-    height: 200px;
+    height: 230px;
     margin-left:35px;
     margin-right:35px;
     margin-bottom:50px;
     background-color: #2e6d50;
     display: inline-block;
     position: relative;
+    border-radius: 12px;
+    border: 4px dashed;
 }
 
 .menuitem h3 {
     font-size: 22px;
+    font-style: italic;
     padding-top:10px;
-    margin-bottom:15px;
+    margin-bottom:8px;
+    position: absolute;
+    right:40px;
+    z-index: 1;
 }
 
 .menuitem ul {
     text-align: justify;
     float:right;
-    margin-right:15px;
+    font-size: 13px;
+    width:100px;
+    position: absolute;
+    top:50px;
+    right: 20px;
 }
 
 .menuitem img {
-    height: 190px;
+    height: 170px;
     position:absolute;
-    left:0;
-    top:10px;
+    left:15px;
+    top:25px;
 }
 
+.dodatoci {
+    height: 455px;
+    width: 250px;
+    background-color: #2e6d50;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+    display: inline-block;
+    padding-top: 25px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius: 12px;
+    border: 4px dashed #f7efe4;
+}
 
+.dodatoci p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f7efe4;
+    line-height: 25px;
+}
+
+.bold {
+    font-weight: bold;
+    float: left;
+}
+
+.cena-right {
+    float: right;
+}
+
+.menuitem .cena {
+    position: absolute;
+    background-color:#f17767;
+    font-size:24px;
+    padding: 4px;
+    bottom:0;
+    right: 0;
+    border-radius: 10px;
+    font-family: 'Neucha', cursive;
+    color: #f7efe4;
+}
